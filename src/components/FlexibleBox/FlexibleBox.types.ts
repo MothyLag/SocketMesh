@@ -3,3 +3,7 @@ export interface FlexibleBoxStyleProps {
     border:string;
     background:string;
 }
+
+export interface FlexibleBoxProps{
+    children?:any;
+}

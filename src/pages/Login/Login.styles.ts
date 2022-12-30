@@ -1,9 +1,15 @@
-import styled from "styled-components";
+import styled, {  CSSProperties } from "styled-components";
 
 export const LoginLayout = styled.div`
-    width: 100%;
-    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
 `;
+
+export const PresentationSectionStyle = {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor:'blue'
+} as CSSProperties;

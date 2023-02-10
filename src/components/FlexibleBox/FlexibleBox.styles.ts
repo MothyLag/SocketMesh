@@ -8,5 +8,6 @@ export const MainBox = styled.div`
     backdrop-filter: blur(5);
     border-radius:3px;
     padding: 10px 20px;
+    box-shadow: -2px 2px 0px 1px;
 `;
 

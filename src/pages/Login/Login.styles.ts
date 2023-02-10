@@ -11,5 +11,4 @@ export const PresentationSectionStyle = {
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor:'blue'
 } as CSSProperties;
